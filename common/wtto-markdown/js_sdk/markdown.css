@@ -1,0 +1,161 @@
+.markdown {
+	text-align: justify;
+	line-height: 1.5;
+	word-wrap: break-word;
+}
+
+.md_p {
+	margin: 0 0 20rpx;
+	text-align: left;
+}
+
+.md_hr {
+	margin: 1em 0;
+	border: 0;
+	border-top: 1px solid #f0f0f0;
+}
+
+.md_a {
+	color: #428bca;
+	text-decoration: none;
+}
+
+.md_ul,
+.md_ol {
+	margin-bottom: 20rpx;
+	padding-left: 2em;
+}
+
+.md_dl {
+	margin-bottom: 20rpx;
+}
+
+.md_dt {
+	font-weight: bold;
+}
+
+.md_h1 {
+	padding-bottom: 10rpx;
+	margin-bottom: 20rpx;
+}
+
+.md_h2 {
+	padding-bottom: 8rpx;
+	margin-bottom: 18rpx;
+}
+
+.md_h3 {
+	padding-bottom: 6rpx;
+	margin-bottom: 12rpx;
+}
+
+.md_h4 {
+	padding-bottom: 4rpx;
+	margin-bottom: 12rpx;
+}
+
+.md_h5 {
+	padding-bottom: 2rpx;
+	margin-bottom: 12rpx;
+}
+
+.md_h6 {
+	margin-bottom: 12rpx;
+}
+
+.md_blockquote {
+	border-left: 8rpx solid #f0f0f0;
+	padding: 0 20rpx;
+}
+
+.md_pre,
+.md_code,
+.md_kbd,
+.md_samp {
+	font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+		monospace, "STHeitiTC-Light", "Microsoft YaHei Light", -apple-system,
+		system-ui, BlinkMacSystemFont;
+	font-size: 90%;
+}
+
+.md_code {
+	padding: 4rpx 8rpx;
+	color: #c7254e;
+	background-color: #f9f2f4;
+	border-radius: 8rpx;
+}
+
+.md_kbd {
+	padding: 4rpx 8rpx;
+	color: #c7254e;
+	background-color: #f9f2f4;
+	border-radius: 8rpx;
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.md_kbd .md_kbd {
+	padding: 0;
+	font-size: inherit;
+	box-shadow: none;
+}
+
+.md_pre {
+	display: block;
+	padding: 20rpx;
+	margin: 0 0 20rpx;
+	color: var(--shiki-light, #333);
+	word-break: break-all;
+	word-wrap: break-word;
+	background-color: var(--shiki-light-bg, #f5f5f5);
+	border: 1px solid #ccc;
+	border-radius: 8rpx;
+}
+
+.md_pre .md_code {
+	padding: 0;
+	font-size: inherit;
+	color: inherit;
+	white-space: pre-wrap;
+	background-color: transparent;
+	border-radius: 0;
+}
+
+.md_pre .md_code .md_code_line {
+	display: block;
+	min-height: 1em;
+	color: var(--shiki-light);
+}
+
+.md_pre .md_code .md_code_line .md_code_token {
+	color: var(--shiki-light);
+}
+
+.dark .md_pre {
+	background-color: var(--shiki-dark-bg);
+}
+.dark .md_pre .md_code .md_code_line,
+.dark .md_pre .md_code .md_code_line .md_code_token {
+	color: var(--shiki-dark);
+}
+
+.md_table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	margin-bottom: 40rpx;
+}
+
+.md_th,
+.md_td {
+	padding: 8rpx 16rpx;
+	border: 1px solid #f0f0f0;
+}
+
+.md_img {
+	max-width: 35%;
+}
+
+.md_sub,
+.md_sup {
+	font-size: 75%;
+}
