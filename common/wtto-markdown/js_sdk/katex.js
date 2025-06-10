@@ -1,3 +1,4 @@
+import "katex/contrib/mhchem/mhchem.js";
 import parse from "@rojer/katex-mini";
 
 /**
